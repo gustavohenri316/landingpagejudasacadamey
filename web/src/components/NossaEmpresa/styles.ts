@@ -34,6 +34,14 @@ export const Container = styled.div`
     background: #FFFFFF;
     border: 1px solid #DCE9E2;
     border-radius: 6px;
+    -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+  }
+  .painel-container:hover{
+    -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
   }
   .painel-container img{
     padding-left: 2rem;
