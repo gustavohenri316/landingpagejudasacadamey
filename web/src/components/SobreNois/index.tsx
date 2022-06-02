@@ -3,7 +3,8 @@ import { Container, Page } from './styles'
 
 export const SobreNois = () => {
   return (
-    <Page>
+    <>
+    <Page id='Sobre'>
       <Container>
         <img src={HeroSobre} />
         <div>
@@ -17,6 +18,9 @@ export const SobreNois = () => {
             </p>
         </div>
       </Container>
+      
+    <a href='#SobreNois'>Mais Sobre</a>
     </Page>
+    </>
   )
 }

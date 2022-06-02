@@ -7,9 +7,9 @@ export const Navbar = () => {
         <h1>Judas<span>A</span>cademy</h1>
       </div>
       <div className='nav'>
-        <a href="#Clientes">Inicio</a>
-        <a href="#SobreNois">Sobre</a>
-        <a href="">Serviços</a>
+        <a href="#Home">Inicio</a>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Serviços">Serviços</a>
         <a href="">Tecnologias</a>
       </div>
         <a className='button'>

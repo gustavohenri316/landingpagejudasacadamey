@@ -6,6 +6,24 @@ export const Page = styled.div`
   height: 734px;
   background: #FFFAF1;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 286px;
+    height: 50px;
+    border: none;
+    background: #00856F;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
 `
 export const Container = styled.div`
   display: flex;

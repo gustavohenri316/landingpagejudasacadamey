@@ -4,6 +4,8 @@ import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { NossaEmpresa } from "./components/NossaEmpresa";
 import { SobreNois } from "./components/SobreNois";
+import { Solution } from "./components/Solution";
+import { Tech } from "./components/Tech";
 import { Widget } from "./components/Widget";
 
 export function App() {
@@ -11,13 +13,15 @@ export function App() {
     <>
       <Navbar />
       <Home />
-      <Clientes/>
+      <Clientes />
       <div style={{ position: 'fixed', bottom:'10px', right:'10px'}}>
         <Widget />
       </div>
-      <SobreNois/>
-      <NossaEmpresa/>
-      <CardContatos/>
+      <SobreNois />
+      <NossaEmpresa />
+      <CardContatos />
+      <Solution />
+      <Tech />
     </>
   )
 }

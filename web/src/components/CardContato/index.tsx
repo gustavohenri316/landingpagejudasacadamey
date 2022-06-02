@@ -5,7 +5,7 @@ import { Conatiner, Page } from './styles'
 
 export const CardContatos = () => {
   return (
-    <Page>
+    <Page >
       <Conatiner>
         <div className='container-principal'>
           <h1>Entre em contato <br /> com a gente!</h1>
