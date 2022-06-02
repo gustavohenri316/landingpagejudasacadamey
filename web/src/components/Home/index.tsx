@@ -8,7 +8,7 @@ export const Home = () => {
         <h4>BOAS-VINDAS A JUDASACADEMY 👋</h4>
         <h1>Softwares,  Data Analytics  e Big Data</h1>
         <p>Ajudamos você no processo de transformação digital e inovação!</p>
-        <button>Converse com um consultor</button>
+        <a href='#Contatos'>Converse com um consultor</a>
       </div>
       <img src={Hero} alt="" />
     </Container>

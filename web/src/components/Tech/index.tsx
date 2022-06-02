@@ -10,7 +10,7 @@ import { Container, Page } from './styles'
 
 export const Tech = () => {
   return (
-    <Page>
+    <Page id='Tech'>
       <h1>Principais Tecnologias</h1>
       <span>
         Confira algumas das principais tecnologias que <br />

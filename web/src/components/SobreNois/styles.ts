@@ -24,6 +24,9 @@ export const Page = styled.div`
     text-transform: uppercase;
     color: #FFFFFF;
   }
+  a:hover{
+    background: #00453A;
+  }
 `
 export const Container = styled.div`
   display: flex;

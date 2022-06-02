@@ -66,7 +66,11 @@ position: relative;
     color: #495057;
     margin-bottom: 3rem;
   }
-  button{
+
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 288px;
     height: 50px;
     background: #00856F;
@@ -75,11 +79,10 @@ position: relative;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 18px;
     text-transform: uppercase;
     color: #FFFFFF;
   }
-  button:hover{
+  a:hover{
     background: #00453A;
   }
   img{

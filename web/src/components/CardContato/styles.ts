@@ -40,7 +40,10 @@ export const Conatiner = styled.div`
     font-size: 16px;
     color: #495057;
   }
-  button{
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 286px;
     height: 50px;
     border: none;
@@ -51,5 +54,8 @@ export const Conatiner = styled.div`
     font-size: 14px;
     text-transform: uppercase;
     color: #FFFFFF;
+  }
+  a:hover{
+    background: #00453A;
   }
 `
