@@ -53,7 +53,7 @@ export const Container = styled.div`
   p{
     padding-top: 2rem;
     width: 573px;
-    height: 96px;
+    height: 280px;
     font-weight: 400;
     font-size: 18px;
     color: #212529;

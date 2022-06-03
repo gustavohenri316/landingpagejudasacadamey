@@ -41,7 +41,7 @@ export const Container = styled.div`
   .nav a:hover{
     border-bottom: 5px solid #FFFF;
   }
-  .button {
+  .contato {
     display: flex;
     align-items: center;
     justify-content: center;

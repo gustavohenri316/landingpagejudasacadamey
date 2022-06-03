@@ -13,7 +13,7 @@ export const NavbarCarreiras = () => {
         <Link to="/">Tecnologias</Link>
         <Link to="/">Carreira</Link>
       </div>
-        <Link className='/' to='#Contatos'>
+        <Link className='contato' to='/'>
           <p>Contato</p>
         </Link>
     </Container>
