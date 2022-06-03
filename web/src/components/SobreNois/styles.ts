@@ -12,7 +12,7 @@ export const Page = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 10rem;
     width: 286px;
     height: 50px;
     border: none;
@@ -53,7 +53,7 @@ export const Container = styled.div`
   p{
     padding-top: 2rem;
     width: 573px;
-    height: 280px;
+    height: 300px;
     font-weight: 400;
     font-size: 18px;
     color: #212529;
