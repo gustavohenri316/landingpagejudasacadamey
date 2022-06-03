@@ -14,7 +14,7 @@ export const Carreiras = () => {
             <input type="text" name="" id="" />
             <input type="text" name="" id="" />
           </div>
-          <button>Pesquisar Vagas</button>
+          <button className='button'>Pesquisar Vagas</button>
         </div>
         <section className='Vagas'>
           <div className='vagas-container'>

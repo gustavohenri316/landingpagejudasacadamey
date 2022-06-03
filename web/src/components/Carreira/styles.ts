@@ -95,4 +95,9 @@ flex-direction: column;
   .vagas-tipe{
     width: 200px;
   }
+  .button{
+    color: #212529;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 `
