@@ -1,5 +1,5 @@
+import { Link } from 'react-router-dom'
 import { Container } from './styles'
-
 export const Navbar = () => {
   return (
     <Container id='Navbar'>
@@ -11,6 +11,7 @@ export const Navbar = () => {
         <a href="#Sobre">Sobre</a>
         <a href="#Serviços">Serviços</a>
         <a href="#Tech">Tecnologias</a>
+        <Link to="/Carreiras">Carreira</Link>
       </div>
         <a className='button' href='#Contatos'>
           <p>Contato</p>

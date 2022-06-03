@@ -4,7 +4,7 @@ import { Container, Page } from './styles'
 
 export const Contato = () => {
   return (
-    <Page>
+    <Page id='Contatos'>
       <Container>
         <div className='container-infos'>
           <h1>Entre em contato <br /> com a gente!</h1>

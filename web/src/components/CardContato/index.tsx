@@ -17,7 +17,7 @@ export const CardContatos = () => {
             <img src={Mail}  />
             <p>contato@judasacademy.com</p>
           </div>
-          <a>Fale com um consultor</a>
+          <a href='#Contatos'>Fale com um consultor</a>
         </div>
         <img src={Hero} className="hero-image" />
       </Conatiner>
