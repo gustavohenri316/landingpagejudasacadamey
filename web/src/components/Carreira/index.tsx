@@ -101,10 +101,10 @@ export const Carreiras = () => {
               <span>JudasAcademy Transformando ideais em Inovaçao</span>
             </div>
             <div className='vagas-text'>
-              <span>Remoto</span>
+              <span>Betim</span>
             </div>
             <div className='vagas-text'>
-              <p className='vagas-tipe'>Belo Horizonte</p>
+              <p className='vagas-tipe'>Analista</p>
             </div>
           </div>
           {/* ------------------- */}
