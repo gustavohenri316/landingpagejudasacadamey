@@ -9,6 +9,7 @@ export const Container = styled.div`
   justify-content: center;
   padding-top: 5rem;
   flex-direction: column;
+  align-items: center;
   gap: 5rem;
   .text-title{
     font-style: normal;
@@ -18,6 +19,7 @@ export const Container = styled.div`
     color: #212529;
   }
   .text-info{
+    width: 1000px;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;

@@ -10,7 +10,7 @@ export const Navbar = () => {
         <a href="#Home">Inicio</a>
         <a href="#Sobre">Sobre</a>
         <a href="#Serviços">Serviços</a>
-        <a href="#Tech">Tecnologias</a>
+        <a href="#Tech">Diferenciais</a>
         <Link to="/Carreiras">Carreira</Link>
       </div>
         <a className='button' href='#Contatos'>

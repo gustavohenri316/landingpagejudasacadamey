@@ -11,8 +11,8 @@ import { Container, Page } from './styles'
 export const Tech = () => {
   return (
     <Page id='Tech'>
-      <h1>Principais Tecnologias</h1>
-      <span>
+      <h1>Nossos Diferenciais</h1>
+      <span>Principais Tecnologias <br /><br />
         Confira algumas das principais tecnologias que <br />
         trabalhamos para entregar soluções digitais escaláveis.
       </span>

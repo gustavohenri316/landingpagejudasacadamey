@@ -10,7 +10,7 @@ export const NavbarCarreiras = () => {
         <Link to="/">Inicio</Link>
         <Link to="/">Sobre</Link>
         <Link to="/">Serviços</Link>
-        <Link to="/">Tecnologias</Link>
+        <Link to="/">Diferenciais</Link>
         <Link to="/">Carreira</Link>
       </div>
         <Link className='contato' to='/'>
