@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Page = styled.div`
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,6 +26,15 @@ export const Page = styled.div`
   }
 `
 export const Container = styled.div`
+@keyframes float {
+      0%,
+      100% {
+        transform: translatey(0);
+      }
+      50% {
+        transform: translatey(-20px);
+      }
+    }
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
@@ -37,6 +47,7 @@ export const Container = styled.div`
     gap: 5rem;
   }
   .container-secundario{
+    animation: float 6s ease-in-out infinite;
     width: 347px;
     height: 281px;
     background: #FFFFFF;

@@ -8,6 +8,16 @@ export const Page = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @keyframes float {
+      0%,
+      100% {
+        transform: translatey(0);
+      }
+      50% {
+        transform: translatey(-20px);
+      }
+    }
+    animation: float 6s ease-in-out infinite;
 `
 export const Conatiner = styled.div`
   display: flex;

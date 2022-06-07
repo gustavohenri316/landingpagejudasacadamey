@@ -5,6 +5,15 @@ export const Page = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  @keyframes float {
+      0%,
+      100% {
+        transform: translatey(0);
+      }
+      50% {
+        transform: translatey(-20px);
+      }
+    }
 
   .info {
     position: relative;
@@ -16,9 +25,12 @@ export const Page = styled.div`
     background: #fffaf1;
     border: 1px solid #dce9e2;
     border-radius: 6px;
+    text-align: center;
+    
   }
   .info-item {
     padding-top: 3.5rem;
+    animation: float 6s ease-in-out infinite;
   }
   .info-item h1 {
     font-style: normal;

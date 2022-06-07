@@ -43,6 +43,7 @@ flex-direction: column;
     background: #DCE9E2;
     border-radius: 40px;
     border: none;
+    text-align: center;
   }
   button{
     width: 1050px;
@@ -52,6 +53,7 @@ flex-direction: column;
   }
   button:hover{
     background-color: #00453A;
+    color: #FFFAF1;
   }
   .Vagas{
     width: 58vw;
@@ -63,6 +65,16 @@ flex-direction: column;
     justify-content: space-between;
     border-bottom: 1px solid #212529;
     height: 70px;
+    cursor: pointer;
+    -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+  }
+  .vagas-container:hover{
+    -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+
   }
   .vagas-info{
     width: 400px;

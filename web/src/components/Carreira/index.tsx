@@ -11,8 +11,8 @@ export const Carreiras = () => {
         </div>
         <div className='filtro'>
           <div className='input'>
-            <input type="text" name="" id="" />
-            <input type="text" name="" id="" />
+            <input type="text" placeholder='Buscar vagas'/>
+            <input type="text" placeholder='Tipos de vagas' />
           </div>
           <button className='button'>Pesquisar Vagas</button>
         </div>
