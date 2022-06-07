@@ -6,7 +6,7 @@ export const Page = styled.div`
   align-items: center;
   margin-top: 10rem;
   width: 100%;
-  height: 1328px;
+  height: 1428px;
   background: #FFFAF1;
   h1{
     padding-top: 5rem;

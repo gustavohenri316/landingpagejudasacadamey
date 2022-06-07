@@ -18,7 +18,7 @@ export const SobreNois = () => {
               <br />
               <br />
               Hoje a JudasAcademy tem muito mais que um compromisso com você, também lutamos por um mundo mais limpo e sustentável, parte da nossa energia vem de placas solares, trazendo uma redução de até 45% do consumo de energia elétrica.
-              Além de focar no ambiente, também focamos no ser humano, onde temos diversas ações e seminários dentro e fora da empresa para debates sobre comunidade virtual, privacidade e proteção dos dados
+              Além de focar no ambiente, também focamos no ser humano, onde temos diversas ações e seminários dentro e fora da empresa para debates sobre comunidade virtual, privacidade e proteção dos dados.
               E caso alguém se sinta incomodado dentro de nossa empresa, temos o nossos canais de denuncias monitorados e auditados pela renomada KPGM.
             </p>
           </div>
